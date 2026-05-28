@@ -16,9 +16,9 @@ Agents are moving beyond simple chat experiences. With the Microsoft Teams SDK, 
 
 This demo walked through building collaborative agents in Microsoft Teams — agents that participate in chats, channels, and meetings, not just 1:1. We framed successful collaborative agents around three pillars:
 
-- **Manners** — for crowded rooms: emoji reactions, quoted replies, threaded replies
-- **Privacy** — for trusted moments: targeted messages to and from agents in shared chats
-- **Polish** — for clean, scannable interactions: Adaptive Cards and Markdown support
+- **Manners** — for crowded rooms: quoted replies, threaded replies
+- **Privacy** — for trusted moments
+- **Polish** — for clean, scannable interactions: Adaptive Cards
 
 The demo scenario was **EngSys**, an internal engineering-health agent that monitors GitHub, pipelines, and on-call signals — first in a 1:1 chat, then in a group incident-response channel.
 
@@ -27,9 +27,6 @@ The demo scenario was **EngSys**, an internal engineering-health agent that moni
 | Feature | Status |
 |---|---|
 | Quoted replies, threaded replies, source citations, AI labels, response streaming, feedback buttons, sensitivity labels, slash commands | Generally available |
-| Emoji reactions | Public preview |
-| Targeted messages (to & from agent) | Public preview |
-| Markdown support | Public preview (June) |
 
 ### 🚀 Getting started
 
@@ -44,7 +41,7 @@ This demo is a walkthrough of what's new in the Microsoft Teams SDK and how to b
 In this demo, you saw how to:
 
 - Build agents for Microsoft Teams collaborative surfaces — 1:1 chats, group chats, channels, and meetings — using the unified Microsoft Teams SDK
-- Apply the three pillars of collaborative agents — **Manners** (emoji reactions, quoted and threaded replies), **Privacy** (targeted messages), and **Polish** (Adaptive Cards and Markdown) — so agents fit into group conversations instead of cluttering them
+- Apply the three pillars of collaborative agents — **Manners** (quoted and threaded replies), **Privacy** (for trusted moments), and **Polish** (Adaptive Cards) — so agents fit into group conversations instead of cluttering them
 - Use Teams-native agent UX — streaming, AI labels, citations, feedback, and starter prompts — to make agent responses feel trustworthy and in-context
 
 ### 💻 Technologies Used
