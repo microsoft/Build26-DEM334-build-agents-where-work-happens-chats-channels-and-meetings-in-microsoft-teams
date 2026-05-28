@@ -39,37 +39,31 @@ Once your content is in the repo, use these three phrases with Copilot to build 
 
 # [Microsoft Build 2026](https://build.microsoft.com)
 
-## 🔥 BRKXXX: SESSION TITLE
+## 🔥 DEM334: Build agents where work happens: chats, channels, and meetings in Microsoft Teams
 
 ### Session Description
 
-*Add Session Description*
+Agents are moving beyond simple chat experiences. With the Teams SDK, developers can build agents that participate directly in the flow of work across chats, channels, and meetings. In this session, you'll learn how to leverage Teams capabilities and create agents that automate tasks, surface insights, and take action in context without pulling users out of Teams.
 
-### 🏫 Getting started in a guided session
+### 🚀 Getting started
 
-To get started in a guided lab session:
-- <!-- step 1 -->
-- <!-- step 2 -->
-- <!-- step 3 -->
+This demo is a walkthrough of what's new in the Microsoft Teams SDK and how to build agents in collaborative spaces (chats, channels, meetings). There's no sample code in this repo — to start building your own agent, use the Teams Developer CLI:
 
-### 🏠 Getting started in your own environment
-
-If you're following these steps at your own pace:
-- Clone this repository
-- Set up your development environment
-- <!-- step 3 -->
+- Install and scaffold a new agent with the [Teams Developer CLI](https://microsoft.github.io/teams-sdk/cli/)
+- Read the [Microsoft Teams SDK docs](https://microsoft.github.io/teams-sdk/welcome) for concepts and reference
+- Explore additional links in the [📚 Resources and Next Steps](#-resources-and-next-steps) table below
 
 ### 🧠 Learning Outcomes
 
-By the end of this session, you will be able to:
+By the end of this demo, you will be able to:
 
-- <!-- outcome 1 -->
-- <!-- outcome 2 -->
-- <!-- outcome 3 -->
+- Use the Microsoft Teams SDK to build agents that participate directly in chats, channels, and meetings.
+- Design agent experiences that automate tasks, surface insights, and take action in the user's flow of work.
+- Apply Teams-native capabilities so agents stay in context without pulling users out of Teams.
 
 ### 💬 Keep Learning with Copilot
 
-Try these prompts with GitHub Copilot to explore the topics from this session. Open Copilot Chat in VS Code (`Ctrl+Alt+I` on Windows/Linux, `Cmd+Shift+I` on Mac), paste a prompt, and see what you learn. Try connecting the [Microsoft Learn MCP Server](#-microsoft-learn-mcp-server) for the latest official documentation.
+Try these prompts with GitHub Copilot to explore the topics from this demo. Open Copilot Chat in Visual Studio Code (`Ctrl+Alt+I` on Windows/Linux, `Cmd+Shift+I` on Mac), paste a prompt, and see what you learn. Try connecting the [Microsoft Learn MCP Server](#-microsoft-learn-mcp-server) for the latest official documentation.
 
 Use these as a starting point — or write your own!
 
@@ -79,24 +73,24 @@ Use these as a starting point — or write your own!
 
 ### 💻 Technologies Used
 
-1. <!-- technology 1 -->
-1. <!-- technology 2 -->
-1. <!-- technology 3 -->
+1. [Microsoft Teams SDK](https://microsoft.github.io/teams-sdk/welcome) — the primary SDK for building agents that run natively in Microsoft Teams chats, channels, and meetings.
 
 ### 📚 Resources and Next Steps
 
 | Resource | Description |
 |:---------|:------------|
+| [Microsoft Teams SDK](https://microsoft.github.io/teams-sdk/welcome) | Official docs for the Microsoft Teams SDK — concepts, guides, and reference for building agents in Teams. |
+| [Teams Developer CLI](https://microsoft.github.io/teams-sdk/cli/) | Command-line tool to scaffold, run, and manage Teams SDK agent projects. |
 | [https://aka.ms/build26-next-steps](https://aka.ms/build26-next-steps) | Explore lab and session repos to further your learning from Microsoft Build |
 
 
 ### 🌟 Microsoft Learn MCP Server
 
-The Microsoft Learn MCP Server gives your AI agent direct access to Microsoft's official documentation — grounded, up-to-date answers about the products and services covered in this session.
+The Microsoft Learn MCP Server gives your AI agent direct access to Microsoft's official documentation — grounded, up-to-date answers about the products and services covered in this demo.
 
-**VS Code** — One click installation: 
+**Visual Studio Code** — One click installation: 
 
-[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Microsoft_Learn_MCP-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=microsoft-learn&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Flearn.microsoft.com%2Fapi%2Fmcp%22%7D)
+[![Install in Visual Studio Code](https://img.shields.io/badge/VS_Code-Install_Microsoft_Learn_MCP-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=microsoft-learn&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Flearn.microsoft.com%2Fapi%2Fmcp%22%7D)
 
 
 **GitHub Copilot CLI** — Run this to install the Learn MCP Server as a plugin:
@@ -108,17 +102,17 @@ For more info, other clients, and to post questions, visit the [Learn MCP Server
 
 ## Content Owners
 
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
-
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+    <td align="center"><a href="https://github.com/lilyydu">
+        <img src="https://github.com/lilyydu.png" width="100px;" alt="Lily Du"/><br />
+        <sub><b>Lily Du</b></sub></a><br />
+            <a href="https://github.com/lilyydu" title="talk">📢</a>
+    </td>
+    <td align="center"><a href="https://github.com/umangsehgal">
+        <img src="https://github.com/umangsehgal.png" width="100px;" alt="Umang Sehgal"/><br />
+        <sub><b>Umang Sehgal</b></sub></a><br />
+            <a href="https://github.com/umangsehgal" title="talk">📢</a>
     </td>
 </tr></table>
 
