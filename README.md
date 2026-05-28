@@ -43,44 +43,54 @@ Once your content is in the repo, use these three phrases with Copilot to build 
 
 ### Session Description
 
-Agents are moving beyond simple chat experiences. With the Teams SDK, developers can build agents that participate directly in the flow of work across chats, channels, and meetings. In this session, you'll learn how to leverage Teams capabilities and create agents that automate tasks, surface insights, and take action in context without pulling users out of Teams.
+Agents are moving beyond simple chat experiences. With the Microsoft Teams SDK, developers can build agents that participate directly in the flow of work across chats, channels, and meetings. In this demo, we showed how to leverage Teams capabilities to create agents that automate tasks, surface insights, and take action in context without pulling users out of Teams.
+
+### 👀 What you saw in this demo
+
+This demo walked through building collaborative agents in Microsoft Teams — agents that participate in chats, channels, and meetings, not just 1:1. We framed successful collaborative agents around three pillars:
+
+- **Manners** — for crowded rooms: emoji reactions, quoted replies, threaded replies
+- **Privacy** — for trusted moments: targeted messages to and from agents in shared chats
+- **Polish** — for clean, scannable interactions: Adaptive Cards and Markdown support
+
+The demo scenario was **EngSys**, an internal engineering-health agent that monitors GitHub, pipelines, and on-call signals — first in a 1:1 chat, then in a group incident-response channel.
+
+#### Features highlighted
+
+| Feature | Status |
+|---|---|
+| Quoted replies, threaded replies, source citations, AI labels, response streaming, feedback buttons, sensitivity labels, slash commands | Generally available |
+| Emoji reactions | Public preview |
+| Targeted messages (to & from agent) | Public preview |
+| Markdown support | Public preview (June) |
 
 ### 🚀 Getting started
 
 This demo is a walkthrough of what's new in the Microsoft Teams SDK and how to build agents in collaborative spaces (chats, channels, meetings). There's no sample code in this repo — to start building your own agent, use the Teams Developer CLI:
 
-- Install and scaffold a new agent with the [Teams Developer CLI](https://microsoft.github.io/teams-sdk/cli/)
-- Read the [Microsoft Teams SDK docs](https://microsoft.github.io/teams-sdk/welcome) for concepts and reference
+- Install and scaffold a new agent with the [Teams Developer CLI](https://aka.ms/teamscli)
+- Read the [Microsoft Teams SDK docs](https://aka.ms/teams-sdk) for concepts and reference
 - Explore additional links in the [📚 Resources and Next Steps](#-resources-and-next-steps) table below
 
 ### 🧠 Learning Outcomes
 
-By the end of this demo, you will be able to:
+In this demo, you saw how to:
 
-- Use the Microsoft Teams SDK to build agents that participate directly in chats, channels, and meetings.
-- Design agent experiences that automate tasks, surface insights, and take action in the user's flow of work.
-- Apply Teams-native capabilities so agents stay in context without pulling users out of Teams.
-
-### 💬 Keep Learning with Copilot
-
-Try these prompts with GitHub Copilot to explore the topics from this demo. Open Copilot Chat in Visual Studio Code (`Ctrl+Alt+I` on Windows/Linux, `Cmd+Shift+I` on Mac), paste a prompt, and see what you learn. Try connecting the [Microsoft Learn MCP Server](#-microsoft-learn-mcp-server) for the latest official documentation.
-
-Use these as a starting point — or write your own!
-
-<!-- Prompts will be tailored to this session's content during repo setup. -->
-
-> *Prompts coming soon — check back after the session content is finalized.*
+- Build agents for Microsoft Teams collaborative surfaces — 1:1 chats, group chats, channels, and meetings — using the unified Microsoft Teams SDK
+- Apply the three pillars of collaborative agents — **Manners** (emoji reactions, quoted and threaded replies), **Privacy** (targeted messages), and **Polish** (Adaptive Cards and Markdown) — so agents fit into group conversations instead of cluttering them
+- Use Teams-native agent UX — streaming, AI labels, citations, feedback, and starter prompts — to make agent responses feel trustworthy and in-context
 
 ### 💻 Technologies Used
 
-1. [Microsoft Teams SDK](https://microsoft.github.io/teams-sdk/welcome) — the primary SDK for building agents that run natively in Microsoft Teams chats, channels, and meetings.
+1. [Microsoft Teams SDK](https://aka.ms/teams-sdk) — the primary SDK for building agents that run natively in Microsoft Teams chats, channels, and meetings.
 
 ### 📚 Resources and Next Steps
 
 | Resource | Description |
 |:---------|:------------|
-| [Microsoft Teams SDK](https://microsoft.github.io/teams-sdk/welcome) | Official docs for the Microsoft Teams SDK — concepts, guides, and reference for building agents in Teams. |
-| [Teams Developer CLI](https://microsoft.github.io/teams-sdk/cli/) | Command-line tool to scaffold, run, and manage Teams SDK agent projects. |
+| [Microsoft Teams SDK](https://aka.ms/teams-sdk) | Official docs for the Microsoft Teams SDK — concepts, guides, and reference for building agents in Teams. |
+| [Teams Developer CLI](https://aka.ms/teamscli) | Command-line tool to scaffold, run, and manage Teams SDK agent projects. |
+| [Adaptive Cards Hub](https://aka.ms/adaptivecardshub) | Design and build the rich, interactive cards used in the demo for approvals and other in-context actions. |
 | [https://aka.ms/build26-next-steps](https://aka.ms/build26-next-steps) | Explore lab and session repos to further your learning from Microsoft Build |
 
 
